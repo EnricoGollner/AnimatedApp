@@ -1,0 +1,1 @@
+ C:\\Users\\Mobile01\\Documents\\Projetos\ e\ Certificados\\Projetos\ e\ Journeys\\Flutter\\AnimatedApp\\.dart_tool\\flutter_build\\65d5af6109b0a9b1d271c052d0704879\\native_assets.yaml: 
