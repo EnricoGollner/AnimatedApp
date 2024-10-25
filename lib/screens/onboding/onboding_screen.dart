@@ -82,7 +82,7 @@ class _OnbodingScreenState extends State<OnbodingScreen> {
                           ),
                           SizedBox(height: 16),
                           Text(
-                            "Don’t skip design. Learn design and code, by building real apps with Flutter and Swift. Complete courses about the best tools.",
+                            "Don’t skip design. Learn design and code, by building real apps with Flutter and Swift. Complete courses about the best tools."
                           ),
                         ],
                       ),
