@@ -49,14 +49,13 @@ class _SideBarState extends State<SideBar> {
                     menu: menu,
                     selectedMenu: selectedSideMenu,
                     press: () {
-                      RiveUtils.chnageSMIBoolState(menu.rive.status!);
+                      RiveUtils.changeSMIBoolState(menu.rive.status!);
                       setState(() {
                         selectedSideMenu = menu;
                       });
                     },
                     riveOnInit: (artboard) {
-                      menu.rive.status = RiveUtils.getRiveInput(artboard,
-                          stateMachineName: menu.rive.stateMachineName);
+                      menu.rive.status = RiveUtils.getRiveInput(artboard, stateMachineName: menu.rive.stateMachineName);
                     },
                   )),
               Padding(
@@ -73,7 +72,7 @@ class _SideBarState extends State<SideBar> {
                     menu: menu,
                     selectedMenu: selectedSideMenu,
                     press: () {
-                      RiveUtils.chnageSMIBoolState(menu.rive.status!);
+                      RiveUtils.changeSMIBoolState(menu.rive.status!);
                       setState(() {
                         selectedSideMenu = menu;
                       });

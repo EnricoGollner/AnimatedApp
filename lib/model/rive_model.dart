@@ -1,7 +1,7 @@
 import 'package:rive/rive.dart';
 
 class RiveModel {
-  final String src, artboard, stateMachineName;
+  final String src,artboard, stateMachineName;
   late SMIBool? status;
 
   RiveModel({
